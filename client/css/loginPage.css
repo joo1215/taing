@@ -80,7 +80,7 @@ Main {
   height: 20px;
   width: 20px;
   right: 0;
-  background: url("../assets/login/idIcon@1x.svg");
+  background: url("../assets/login/id-icon.svg");
   /* background-position: center; */
   border: 0;
 }
@@ -107,7 +107,7 @@ Main {
   width: 20px;
   height: 20px;
   right: 0;
-  background: url(../assets/login/pwIcon@1x.svg);
+  background: url("../assets/login/pw-icon.svg");
   background-position: center;
   border: 0;
 }
@@ -143,8 +143,8 @@ Main {
 
 .btn-check .checkbox + label {
   display: inline-block;
-  background: url("../assets/login/checkGrayFilled.svg") 0 0
-    no-repeat;
+  background: url("../assets/login/check-filled-gray.svg") 0
+    0 no-repeat;
   background-size: cover;
   width: 16px;
   height: 16px;
@@ -153,8 +153,8 @@ Main {
 }
 
 .btn-check .checkbox:checked + label {
-  background: url("../assets/login/checkRedFilled.svg") 0 0
-    no-repeat;
+  background: url("../assets/login/check-filled-red.svg") 0
+    0 no-repeat;
   background-size: cover;
 }
 
